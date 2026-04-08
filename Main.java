@@ -49,7 +49,7 @@ public class Main {
         System.out.println("Escolha uma opcao: ");
         int opcao = sc.nextInt();
 
-        // 🔹 NOVA variável só pro menu
+       
         int tentativasMenu = 0;
 
         while ((opcao < 1 || opcao > 3) && tentativasMenu < 3) {
